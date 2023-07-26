@@ -43,6 +43,18 @@ Or just input from the rootdirectory;
 `- node scripts/getmeta.mjs papajohns`
 
 - - -
+
+And these are the direct API counterparts; 
+
+[ $SELF API Call evm/papajohns](https://self-api.com/api/v1/evm/papajohns) 
+
+[ $SELF API Call meta/papajohns](https://self-api.com/api/v1/meta/papajohns) 
+
+
+- - -
+
+
+
  
  @Thanks for reading. Please feel free to fork it / contribute to it 
 
