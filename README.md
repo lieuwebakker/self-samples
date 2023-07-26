@@ -1,4 +1,5 @@
-# SELF scripts for name and metadata resolving 
+# SELF demo scripts 
+   for name and metadata resolving 
 
 ## Introduction
 
