@@ -2,11 +2,8 @@
 
 ## Introduction
 
-These sample scripts are built to demonstrate the basic code for a standard implementation of SELF
-
-The scripts are the exact same as of the SELF API Server.
-
-For the sake of simplicity we limited the demo scripts to just the elementary functionality
+These sample scripts are a copy of the SELF API Server and meant to demonstrate the basic code for a standard implementation of SELF.
+For the sake of simplicity we limited the demo scripts to just the elementary functionality.
 
 All scripts have a .mjs extension.
 
