@@ -26,6 +26,7 @@ A file with .mjs extension is a JavaScript source code file that is used as an E
 package.josn holds the commands; 
 
 `try : node scripts/getwallet.mjs papajohns`
+
 `trymeta : node scripts/getmeta.mjs papajohns`
 
 
@@ -38,6 +39,7 @@ Youc can run the meta resolving interaction with the command
 Or just input from the rootdirectory;
 
 `- node scripts/getwallet.mjs papajohns`
+
 `- node scripts/getmeta.mjs papajohns`
 
 - - -
