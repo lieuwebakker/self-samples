@@ -44,7 +44,7 @@ Or just input from the rootdirectory;
 
 - - -
 
-## SELF API Server
+## $SELF API Server
 
 And these are the direct API counterparts; 
 
