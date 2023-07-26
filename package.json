@@ -1,0 +1,19 @@
+{
+  "name": "self-samples",
+  "version": "1.0.0",
+  "description": "example script for interacting with self name resolving and other boilerplate functionalities ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "self",
+    "nft",
+    "name-resolving",
+    "digital-id",
+    "-web3",
+    "boilerplate"
+  ],
+  "author": "lieuwebakker",
+  "license": "ISC"
+}
