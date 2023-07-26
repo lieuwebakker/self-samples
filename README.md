@@ -2,7 +2,7 @@
 
 ## Introduction
 
-These sample scripts are a copy of the scripts running on our  $SELF API Server at https://self-api.com and meant to demonstrate the minimal code for a basic implementation of $SELF.
+These sample scripts are a copy of the scripts running on our [ $SELF API Server](https://www.self-api.com) and meant to demonstrate the minimal code for a basic implementation of $SELF.
 
 For the sake of simplicity we limited the demo scripts to just the elementary functionality.
 
