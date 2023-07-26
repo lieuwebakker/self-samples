@@ -4,6 +4,8 @@
   "description": "example script for interacting with self name resolving and other boilerplate functionalities ",
   "main": "index.js",
   "scripts": {
+    "try": "node scripts/getwallet.mjs papajohns",
+    "trymeta": "node scripts/getmeta.mjs papajohns",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,5 +17,9 @@
     "boilerplate"
   ],
   "author": "lieuwebakker",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.6.5",
+    "node-fetch": "^3.3.2"
+  }
 }

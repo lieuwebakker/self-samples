@@ -2,11 +2,11 @@
 "use strict"; 
 // * * *     *       *   *       *   *   *   * *** *
 // *    *       *     *      *   *       *   *     *
-// *   SCRIPT : getwallet.js      * *         * 
-// *   Location self/scripts/getwallet.js   * * 
-// *   Author Luis Panadero                        *
-// *   Date: 01 jul 2023             *          *
-// *   Version: v0.2.1.            *        *      *
+// *   SCRIPT : getwallet.mjs      * *         * 
+// *   Location scripts/getwallet.mjs       *    * * 
+// *   Author Luis Panadero     *                  *
+// *   Date: 21 jul 2023             *          *
+// *   Version: v0.2.2.            *        *      *
 // ** *     *       *   *       *   *   *   *     **
 // * *  *       *     *      *   *       *  *  * * *
 
@@ -35,5 +35,8 @@ async function rc( _c, _a, _f, _p=[]) {
 }
 
 // resolveName
-async function rn(_n) {console.log( await rc(c,a,"ownerOf",[keccak256(toUtf8Bytes(_n))]));}
+async function rn(_n) {
+    try { console.log( await rc(c,a,"ownerOf",[keccak256(toUtf8Bytes(_n))])); }
+    catch (e) { console.log(e.reason); }
+}
 rn(process.argv.slice(2)[0]);
