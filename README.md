@@ -18,28 +18,26 @@ A file with .mjs extension is a JavaScript source code file that is used as an E
 - have a look at package.json 
 - Install NPM packages : npm update
 
-
-It covers to script commands; 
-
-   	"try": "node scripts/getwallet.mjs papajohns",
-    "trymeta": "node scripts/getmeta.mjs papajohns",
-
 - - -
 
-## Run tests
+## How to use
 
-To try the name resolving interaction with the command
+package.josn holds the commands; 
 
+"try": "node scripts/getwallet.mjs papajohns",
+"trymeta": "node scripts/getmeta.mjs papajohns",
+
+
+You can run the name resolving interaction flow with the command
 - npm run try
 
-To try the meta resolving interaction with the command
-
+Youc can run the meta resolving interaction with the command
 - npm run trymeta
 
 Or just input from the rootdirectory;
 
-- node scripts/getwallet.mjs papajohns
-- node scripts/getmeta.mjs papajohns
+`- node scripts/getwallet.mjs papajohns`
+`- node scripts/getmeta.mjs papajohns`
 
 - - -
  
