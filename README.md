@@ -1,11 +1,12 @@
-# SELF demo scripts 
+# $SELF demo scripts 
 
 ## Introduction
 
-These sample scripts are a copy of the SELF API Server and meant to demonstrate the basic code for a standard implementation of SELF.
+These sample scripts are a copy of the scripts running on our  $SELF API Server at https://self-api.com and meant to demonstrate the minimal code for a basic implementation of $SELF.
+
 For the sake of simplicity we limited the demo scripts to just the elementary functionality.
 
-Both scripts have a .mjs extension.
+Both demo scripts have a .mjs extension.
 
 A file with .mjs extension is a JavaScript source code file that is used as an ECMA Module (ECMAScript Module) in Node.js applications. 
 
@@ -14,8 +15,8 @@ A file with .mjs extension is a JavaScript source code file that is used as an E
 ## Prerequisites & installation
 
 - Node.js version installed, preferred version 18.14 or up.
-- Fork / copy or download the code
-- have a look at package.json 
+- Fork, copy or download the code
+- Have a look at package.json 
 - Install NPM packages : npm update
 
 - - -
