@@ -1,5 +1,4 @@
 # SELF demo scripts 
-   for name and metadata resolving 
 
 ## Introduction
 
@@ -7,8 +6,8 @@ These sample scripts are built to demonstrate the basic code for a standard impl
 
 The scripts are the exact same as of the SELF API Server.
 
-For the sake of simplicity we limited the demo scripts to just the elementary functionalityl
-<br>
+For the sake of simplicity we limited the demo scripts to just the elementary functionality
+
 All scripts have a .mjs extension.
 
 A file with .mjs extension is a JavaScript source code file that is used as an ECMA Module (ECMAScript Module) in Node.js applications. 
