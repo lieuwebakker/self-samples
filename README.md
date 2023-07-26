@@ -23,7 +23,7 @@ A file with .mjs extension is a JavaScript source code file that is used as an E
 
 ## How to use
 
-package.josn holds the commands; 
+package.json holds the commands; 
 
 `try : node scripts/getwallet.mjs papajohns`
 
