@@ -48,8 +48,7 @@ And these are the direct API counterparts;
 
 [ $SELF API Call evm/papajohns](https://self-api.com/api/v1/evm/papajohns) 
 
-[ $SELF API Call meta/papajohns](https://self-api.com/api/v1/meta/papajohns) 
-
+[ $SELF API Call meta/papajohns <- coming soon](https://self-api.com/api/v1/evm/papajohns) 
 
 - - -
 
