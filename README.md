@@ -33,7 +33,7 @@ package.josn holds the commands;
 You can run the name resolving interaction flow with the command
 - npm run try
 
-Youc can run the meta resolving interaction with the command
+You can run the meta resolving interaction with the command
 - npm run trymeta
 
 Or just input from the rootdirectory;
