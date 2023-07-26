@@ -44,6 +44,8 @@ Or just input from the rootdirectory;
 
 - - -
 
+## SELF API Server
+
 And these are the direct API counterparts; 
 
 [ $SELF API Call evm/papajohns](https://self-api.com/api/v1/evm/papajohns) 
