@@ -1,15 +1,30 @@
+/// SPDX-License-Identifier: MIT
+"use strict"; 
+// * * *     *       *   *       *   *   *   * *** *
+// *    *       *     *      *   *       *   *     *
+// *   SCRIPT : getmeta.mjs      * *         * 
+// *   Location scripts/getmeta.mjs       *    * * 
+// *   Author Luis Panadero     *                  *
+// *   Date: 24 jul 2023             *          *
+// *   Version: v0.1.0.            *        *      *
+// ** *     *       *   *       *   *   *   *     **
+// * *  *       *     *      *   *       *  *  * * *
 
+/** @notice How the routine works
+* npm i ethers
+* npm i node-fetch
+* node getmeta papajohns
+*/
 
+// gateway routine
 async function createGatewayLink(ipfsLink) {
   const ipfsPrefix = "ipfs://";
   const gatewayPrefix = "https://nftstorage.link/ipfs/";
 
   if (ipfsLink.startsWith(ipfsPrefix)) {
     const cid = ipfsLink.substring(ipfsPrefix.length);
-    const gatewayLink = gatewayPrefix + cid;
-    return gatewayLink;
+    return gatewayPrefix + cid;
   }
-  // If the input doesn't start with "ipfs://", return null or throw an error as desired
   return undefined;
 }
 
@@ -31,11 +46,9 @@ async function gm( _n) {
     // init provider
     const p = gp();
     // read contract
-    const contract = new ethers.Contract( c, aa, p);
-    // hash name
-    const hashedName = BigInt(keccak256(toUtf8Bytes(_n))).toString();
-    // get tokenUri
-    const tokenUri = await contract.tokenURI(hashedName);
+    const contract = new ethers.Contract(c, aa, p);
+    // get tokenUri of hashed_name
+    const tokenUri = await contract.tokenURI(keccak256(toUtf8Bytes(_n)));
     // create gateway
     const gatewayLink = await createGatewayLink(tokenUri);
     // read metadata
@@ -44,4 +57,3 @@ async function gm( _n) {
     catch (e) { console.log(e.reason); }
 }
 gm(process.argv.slice(2)[0]);
-
